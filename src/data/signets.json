@@ -1,23 +1,23 @@
 [
     {
-        "nom": "wut",
+        "nom": "GameJolt",
         "date": "24 janvier 2021",
-        "url": "https://oof.birb.net",
-        "repertoire_id": 0,
-        "id": 0
+        "url": "https://gamejolt.com/games/projectflight/391919",
+        "repertoire_id": "rep0001",
+        "id": "sgn00001"
     },
     {
-        "nom": "borb",
+        "nom": "itch.io",
         "date": "24 janvier 2021",
-        "url": "https://oofs.birb.br",
-        "repertoire_id": 1,
-        "id": 1
+        "url": "https://mickyelloow.itch.io/project-flight-sswebgl",
+        "repertoire_id": "rep0002",
+        "id": "sgn00002"
     },
     {
-        "nom": "nah",
-        "date": "24 janvier 2021",
-        "url": "https://talons.homework.ca",
-        "repertoire_id": 0,
-        "id": 2
+        "nom": "GameJolt",
+        "date": "28 janvier 2021",
+        "url": "https://gamejolt.com/games/projectflight/391919",
+        "repertoire_id": "rep0001",
+        "id": "sgn00003"
     }
 ]

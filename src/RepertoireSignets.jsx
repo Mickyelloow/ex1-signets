@@ -3,8 +3,8 @@ import Signet from './Signet.jsx'
 import tabSignets from './data/signets.json';
 
 export default function RepertoireSignets(props) {
-    console.log(tabSignets);
-    console.log(props);
+    //console.log(tabSignets);
+    //console.log(props);
 
     const tabCouleurs = [
         ["#000000", "white"],
@@ -26,6 +26,7 @@ export default function RepertoireSignets(props) {
 
     return(
         <div className="Repertoire" style={{backgroundColor: tabCouleurs[props.couleur][0], color: tabCouleurs[props.couleur][1]}}>
+            <img className="ImgRepertoire" src={"images-repertoires/" + props.id + ".jpg"} alt=""/>
             <h2 className="Nom">{props.nom}</h2>
             <h3 className="DateModif">{props.dateModif}</h3>
             <ul className="ListeSignets">

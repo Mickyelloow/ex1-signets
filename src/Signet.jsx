@@ -5,7 +5,7 @@ export default function Signet(props) {
     /*console.log(props);
     const [signet, setSignet] = props.etatSignet;*/
 
-    console.log("props de signet: ", props);
+    //console.log("props de signet: ", props);
     const {nom, date, url, id} = props;
 
     return(
@@ -14,7 +14,7 @@ export default function Signet(props) {
             <div className="info">
                 <p className="nom">{props.nom}</p>
                 <p className="date">{props.date}</p>
-                <p className="url">{props.url}</p>
+                <a className="url" href={props.url}>{props.url}</a>
             </div>
         </li>
     );
